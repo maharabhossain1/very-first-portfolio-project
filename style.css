@@ -246,6 +246,114 @@ h1,h2{
 
 }
 
+ /* contact section start  */
+#contact-1{
+    padding-top: 50px;
+}
+#main-form{
+    display: flex;
+    justify-content: center;
+    
+    margin: 10%;
+    background-color: aquamarine;
+    box-shadow: 16px 8px 25px #66fcf1; 
+    border-radius:20px;
+}
+
+.main-content{   
+    width: 50%;
+    width: 50%;    
+}
+#contect{
+    background-color:#2a2f3d;
+    border-radius: 20px 0px 0px 20px;
+}
+#text{    
+    text-align: center;
+}
+#text h2{
+    color: #66fcf1;
+    font-size: 25px;
+}
+#text p{
+    color: white;
+    font-size: 18px;
+}
+#address{
+    margin-left: 30px;
+    width: 50%;
+   color: aliceblue;
+    font-size: 18px;
+}
+#address p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#social h3{
+    color: #66fcf1;
+    text-align: center;
+}
+#social-media{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px; 
+}
+#social-media button{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+#facebook:hover{
+    background-color:#1778f2;
+    box-shadow: 5px 5px 15px white;
+}
+#instagram:hover{
+    background-color: #E1306C;
+    box-shadow: 5px 5px 15px white;
+}
+#twitter:hover{
+    background-color: #1DA1F2;
+    box-shadow: 5px 5px 15px white;
+}
+#github:hover{
+    box-shadow: 5px 5px 15px white;
+}
+#social-media button a img{
+    width: 100%;   
+}
+#form-box h1{
+    text-align: center;
+    font-size: 30px;
+} 
+
+form input{
+    margin-left: 15px;
+    width: 90%;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+form #message {
+    height: 90px;
+}
+form button{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom:10px ;
+   width: 100px;
+   height: 30px;
+    text-align: center;
+    border-radius: 13px;
+}
+form button:hover{
+    background-color: #66fcf1;
+    color: #555;
+    box-shadow: 5px 5px 15px black;
+}
+
 /* footer start  */
 footer{
     display: flex;
