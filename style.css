@@ -1,0 +1,263 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+    background-color: #2a2f3d;
+    
+}
+
+
+
+/* --------------------nav bar start--------------------*/
+.navbar{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2f3d;
+    color: #66fcf1;;
+    
+    
+ 
+}
+main{
+    padding-top: 50px;
+}
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.navbar-links li{
+    list-style: none;
+    
+}
+.navbar-links li a {
+    text-decoration: none;
+    color:#65ccb8;
+    padding: 1rem;
+    display: block;
+    
+}
+.navbar-links li:hover{
+    background-color: #555;
+   
+    
+} 
+.navbar-links li a:hover{
+    color: skyblue;
+}
+
+/* --------------------nav bar end-------------------- */
+
+
+
+
+
+.flex-content{
+    display: flex;
+}
+h1,h2{
+    font-size: 35px;
+    color: #66fcf1;
+}
+.orange-color,#full-stack,#stat,#js,#h-c,#b-s,#rea,#first-project,#second-project,#third-project{
+    color: #66fcf1;
+    ;
+}
+
+ .half-width,.second-half-width{
+    width: 50%;
+    padding-left:8% ;
+}
+#intro ,#about-text{
+    padding: 5vh;
+    text-align: justify;
+    
+    
+}
+#about-text{
+    color: white;
+}
+#name{
+    border-left:10px solid;
+    
+    border-image:linear-gradient(#18a5a7,#bfffc7);
+    border-image-slice: 1;
+    padding-left: 3.5%;
+
+}
+
+
+/* --------------------image effect sector start--------------------  */
+.first-img,.second-img{
+    margin-top: 100px;
+    width: 40vh;
+    height: 40vh;
+    border: 5px solid #66fcf1;
+    box-shadow: 9px 4px 20px #66fcf1;
+}
+#first-main-img{
+    height: 40vh;
+    width: 40vh;
+    
+    background-image: linear-gradient(#16a8ab9f,#bfffc84a), url(images/first.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: perspective(300px) translate3d(-50px, -30px, 0px);
+}
+
+#first-main-img:hover{
+    background-image: url(images/first.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 9px 4px 20px #66fcf1;
+}
+.second-img{
+    margin-left: 100px;
+}
+#second-main-img{
+
+    height: 40vh;
+    width: 40vh;
+    
+    background-image: linear-gradient(#16a8ab9f,#bfffc84a), url(images/second.jpeg);
+    background-position: center;
+    background-size: cover;
+    transform: perspective(300px) translate3d(50px, -30px, 0px);
+}
+#second-main-img:hover{
+    background-image: url(images/second.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 9px 4px 20px #66fcf1;
+}
+/* -----------image effect sector end----------------------  */
+
+
+
+
+.hire-me, .download-resume{
+    text-decoration:none;
+    background-color: #227eb0;
+    border-radius: 50px;
+    padding:10px 30px;
+    color: #66fcf1;
+}
+.hire-me:hover,.download-resume:hover{
+    background-color: #143414;
+    color: aliceblue;
+    box-shadow: 9px 4px 20px #66fcf1;
+}
+.top-banner{
+    
+    background-repeat: no-repeat;
+    background-color: #2a2f3d;
+    background-image: url(images/Conection\ wallpaper\ by\ Pr1m3r\ -\ c6\ -\ Free\ on\ ZEDGE™\ 1.jpg);
+}
+#about-me {
+    text-align: center;
+    color:#65ccb8 ;
+}
+
+.second-half-width{
+    padding-top: 15px;
+}
+.download-resume{
+    margin: 55px;
+}
+.second-banner{
+    
+    background-position: right;
+    background-color: #2a2f3d;
+    margin-top: 150px;
+}
+
+
+/* skils  and project main div */
+#skills, #projects{
+    margin-left: 80px;
+    padding-left:30px ;
+}
+
+
+
+/* skills section */
+#html-css,#javascript,#bootstrap,#react{
+    width: 50%;
+    padding:2% ;
+    margin: 10px  15px 10px;
+    border-left:10px solid;
+    
+    border-radius: 0px 30px 30px 0px;
+    border-image:linear-gradient(#18a5a7,#bfffc7);
+    border-image-slice: 1;
+    box-shadow: 9px 4px 20px;
+    position: relative;
+  
+    
+}
+
+/* hover effect of all skills div and projects div */
+#html-css:hover,#javascript:hover,#e-commerce:hover,#power-x-gym:hover,#doctors-portal:hover,#bootstrap:hover,#react:hover{
+    opacity: 0.5;
+    box-shadow: 9px 4px 20px #66fcf1;
+}
+
+
+.skill-div, #skill,#pro,#project-div{
+    margin-top :20px;
+    padding-top: 30px;
+}
+
+
+/* projects section */
+#e-commerce,#power-x-gym,#doctors-portal{
+    width: 50%;
+    padding:0% ;
+    margin: 10px  100px 100px;
+    border-left:10px solid;
+    border-radius: 0px 30px 30px 0px;
+    border-image:linear-gradient(#18a5a7,#bfffc7);
+    border-image-slice: 1;
+    box-shadow: 9px 4px 20px;
+    position: relative;
+  
+
+}
+#e-commerce p,#power-x-gym p,#doctors-portal p,#html-css p,#javascript p,#bootstrap p,#react p{
+    color: white;
+}
+
+
+#e-commerce a img,#power-x-gym a img,#doctors-portal a img{
+    width:95%;
+
+}
+
+/* footer start  */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 19, 24);
+    color: rgb(255, 255, 255);
+    padding: 2%;
+}
+footer p {
+    font-size : 10px;
+}
+footer p a {
+    text-decoration:none ;
+    color: white;
+}
